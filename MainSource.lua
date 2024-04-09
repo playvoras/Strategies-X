@@ -142,7 +142,7 @@ if isfile("StrategiesX/UserConfig/UtilitiesConfig.txt") then
             BypassGroup = false,
             AutoBuyMissing = false,
             AutoPickups = false,
-            RestartMatch = true,
+            RestartMatch = false,
             TowersPreview = false,
             Webhook = {
                 Enabled = false,
