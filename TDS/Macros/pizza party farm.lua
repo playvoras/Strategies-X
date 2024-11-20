@@ -8,7 +8,9 @@
 ✅ Auto skip 
 ✅ Auto restart 
 ]] --
-
+getgenv().AutoSkip = true
+getgenv().AutoRestart = true
+getgenv().BuyMissingTowers = true
 getgenv().StratCreditsAuthor = "Optional"
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/MainSource.lua", true))()
 TDS:Map("Pizza Party", true, "Survival")
