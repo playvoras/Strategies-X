@@ -1,4 +1,5 @@
 -- autoskip = true --
+print("script is loading")
 getgenv().AutoSkip = true
 getgenv().AutoRestart = true
 getgenv().BuyMissingTowers = true
