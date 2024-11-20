@@ -1,5 +1,7 @@
 -- autoskip = true --
-
+getgenv().AutoSkip = true
+getgenv().AutoRestart = true
+getgenv().BuyMissingTowers = true
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/MainSource.lua", true))()
 TDS:Map("Wrecked Battlefield", true, "Hardcore")
 TDS:Loadout({"Pyromancer", "Ace Pilot", "Military Base"})
