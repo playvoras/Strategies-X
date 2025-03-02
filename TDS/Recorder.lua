@@ -385,7 +385,7 @@ if game.PlaceId ~= 3260590327 then
         end
     end
     writestrat("getgenv().StratCreditsAuthor = \"Optional\"")
-    appendstrat("local TDS = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Sigmanic/Strategies-X/refs/heads/main/TDS/MainSource.lua\", true))()\nTDS:Map(\""..
+    appendstrat("local TDS = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/playvoras/Strategies-X/refs/heads/main/TDS/MainSource.lua\", true))()\nTDS:Map(\""..
     RSMap.Value.."\", true, \""..RSMode.Value.."\")\nTDS:Loadout({\""..
         table.concat(Recorder.Troops, `", "`) .. if #Recorder.Troops.Golden ~= 0 then "\", [\"Golden\"] = {\""..
         table.concat(Recorder.Troops.Golden, `", "`).."\"}})" else "\"})"
